@@ -116,13 +116,6 @@
         margin: 20px 20px;
     }
 
-    .footer {
-        height: 400px;
-        width: 100%;
-        background-color: black;
-        margin-top: 715px;
-
-    }
 
     .pic_area .pic:hover {
         transform: scale(1.1);
