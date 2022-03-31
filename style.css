@@ -1,0 +1,131 @@
+
+    body {
+        background-image: url("Navyatri bg.png");
+    }
+
+    nav .logo {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        /* border: 2px solid red; */
+        text-align: center;
+
+
+    }
+
+    nav .logo img {
+        height: 45%;
+        width: 60%;
+    }
+
+    .sign ul {
+        list-style: none;
+
+    }
+
+    .sign ul li {
+        /* border: 2px solid red; */
+        float: right;
+        font-size: 28px;
+        margin: 15px;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .sign ul li {
+        border: 4px solid white;
+        border-radius: 100px;
+    }
+
+    .sign ul li:hover {
+        background-color: white;
+
+
+    }
+
+
+
+    .sign ul li a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    /* .sign ul li a:hover{
+        color: black;
+    } */
+
+    .sign ul li a:hover {
+        color: black;
+    }
+
+    .centre_text {
+        /* border: 2px solid white; */
+        position: absolute;
+        color: white;
+        margin-top: 90px;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+        clear: both;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    button {
+        margin-top: 400px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .pic_area .pic img {
+        height: 200px;
+        width: 150px;
+        box-shadow: black 10px 10px 30px;
+
+
+
+    }
+
+    .pic_area .pic {
+        text-align: center;
+        margin: 40px 40px;
+        transition: transform .2s;
+
+    }
+
+    .pic_area {
+        /* border: 2px solid white; */
+        display: flex;
+        clear: both;
+        position: absolute;
+        margin-top: 400px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .pic_area .pic p {
+        font-size: 30px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .lines img {
+        height: 40px;
+        width: 40px;
+        margin: 20px 20px;
+    }
+
+    .footer {
+        height: 400px;
+        width: 100%;
+        background-color: black;
+        margin-top: 715px;
+
+    }
+
+    .pic_area .pic:hover {
+        transform: scale(1.1);
+    }
+
+
